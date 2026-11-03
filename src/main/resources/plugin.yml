@@ -1,0 +1,15 @@
+name: OrbitalPearlPlugin
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin that allows binding players to a fishing rod and teleporting them to the rod user.
+api-version: "1.21"
+commands:
+  orbitalpearl:
+    description: Bind a player to your special fishing rod.
+    usage: /orbitalpearl <player>
+    permission: orbitalpearl.use
+permissions:
+  orbitalpearl.use:
+    description: Allows the use of the /orbitalpearl command.
+    default: op
